@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+	
+	width: 100%;
+	font-family: "Bison DemiBold";
+}
+
+.nav-link{
+	
+	color: #F3EBEB !important;
+	font-family: "Bison DemiBold";
+	font-size: 1.5rem;
+}
+/*
+.nav-link:hover{
+	color: #737373;
+}
+*/
+
+
+.tieude01{
+	
+	margin-top: 20px;
+}
+
+.tieude01 h1{
+	
+	color: #555555;
+	font-family:Bison;
+}
+
+.aosomi{
+	margin: 20px 0px;
+}
+
+.aosomi img{
+	
+	width: 100%;
+	height: 100%;
+}
+.featured{
+	margin-top: 20px;
+}
+.featured img{
+	width: 100%
+}
+.aosomi h4{
+	
+	color: #F05C1A;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.aosomi p{
+		
+	color: #F33A9B;
+	font-size: 22px;
+	text-align: center;
+}
+
+
+.bannerkm{
+	background-image: url("../images/bannerkm.jpg");
+	height: 300px;
+	background-size: cover;
+	margin: 20px -15px;
+}
+
+.anhdamdaopho img{
+	
+	width: 100%;
+	height: 500px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	
+	.lebenduoi{
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	.tieudedaopho{
+		
+		margin-top: 20px;
+	}
+	
+	.anhdamdaopho img{
+	
+	width: 100%;
+	height: 400px;
+}
+ 
+}
+
+.footer{
+	padding: 70px 0px;
+	margin-top: 20px;
+	min-height: 40px;
+	font-family: "Bison DemiBold";
+	font-size: 25px;	
+}
+.footer ul a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer ul li{
+	list-style: none;
+}
+.footer ul li a{
+	font-family: 'Bison DemiBold';
+	font-size: 20px;
+	text-decoration: none;
+	color: #777;
+}
+.footer ul li a:hover{
+	color: #fff;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+.box-left{
+	display: flex;
+}
+.box-right ul{
+	display: flex;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+.box-right ul li{
+	margin-left: 40px;
+}
+.box-right ul li a{
+	font-size: 30px;
+}
+
+
+.footer h5{
+	color: #777;
+	font-weight: 100;
+	font-size: 15px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 30px;
+	padding-left: 40px;
+	
+}
+
+
+
